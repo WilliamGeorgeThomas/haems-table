@@ -10,10 +10,8 @@ const Header = () => {
         <Link className="" to="/">
           <h1 className="text-6xl stylish logo drop-shadow-xl md:font-bold sm:font-semibold">🎷5th Octave</h1>
         </Link>
-        <select className="my-2 p-2 rounded-lg border-4 border-[#C1121F] bg-[#FDF0D5] stylish md:font-bold sm:font-semibold text-lg drop-shadow-xl" onChange>
-          <option selected disabled>
-            Search By Instrument
-          </option>
+        <select className="my-2 p-2 rounded-lg border-4 border-[#C1121F] bg-[#FDF0D5] stylish md:font-bold sm:font-semibold text-lg drop-shadow-xl">
+          <option>Search By Instrument</option>
           <option value="Sitar">Sitar</option>
           <option value="Banjo">Banjo</option>
           <option value="Saxophone">Saxophone</option>
@@ -21,24 +19,20 @@ const Header = () => {
           <option value="Flute">Flute</option>
         </select>
         <div>
-         
-            <>
-              <button className="border-4 border-[#FDF0D5] rounded-lg bg-[#C1121F] p-2 text-[#FDF0D5] stylish mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
-                <Link to="/me">My Profile</Link>
-              </button>
-              <button className="border-4 border-[#FDF0D5] rounded-lg bg-[#C1121F] p-2 text-[#FDF0D5] stylish md:font-bold sm:font-semibold drop-shadow-xl" onClick>
-                Sign Out
-              </button>
-            </>
-            <div className="">
-              <button className="border-4 border-[#FDF0D5] rounded-lg bg-[#C1121F] p-2 text-[#FDF0D5] stylish mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
-                <Link to="/login">Sign In</Link>
-              </button>
-              <button className="border-4 border-[#FDF0D5] rounded-lg bg-[#C1121F] p-2 text-[#FDF0D5] stylish md:font-bold sm:font-semibold drop-shadow-xl">
-                <Link to="/signup">Join 5th Octave</Link>
-              </button>
-            </div>
-          
+          <>
+            <button className="border-4 border-[#FDF0D5] rounded-lg bg-[#C1121F] p-2 text-[#FDF0D5] stylish mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
+              <Link to="/me">My Profile</Link>
+            </button>
+            <button className="border-4 border-[#FDF0D5] rounded-lg bg-[#C1121F] p-2 text-[#FDF0D5] stylish md:font-bold sm:font-semibold drop-shadow-xl">Sign Out</button>
+          </>
+          <div className="">
+            <button className="border-4 border-[#FDF0D5] rounded-lg bg-[#C1121F] p-2 text-[#FDF0D5] stylish mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
+              <Link to="/login">Sign In</Link>
+            </button>
+            <button className="border-4 border-[#FDF0D5] rounded-lg bg-[#C1121F] p-2 text-[#FDF0D5] stylish md:font-bold sm:font-semibold drop-shadow-xl">
+              <Link to="/signup">Join 5th Octave</Link>
+            </button>
+          </div>
         </div>
       </div>
     </div>
