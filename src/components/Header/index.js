@@ -35,6 +35,9 @@ const Header = () => {
             <button className="border-4 border-[#FDF0D5] rounded-full bg-[#d1d3aa] p-3 text-[#FDF0D5] stylish mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
               <Link to="/login">CONTACT</Link>
             </button>
+            <button className="border-4 border-[#FDF0D5] rounded-full bg-[#d1d3aa] p-3 text-[#FDF0D5] stylish mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
+              <Link to="/login">NEWSLETTER</Link>
+            </button>
             <button className="border-4 border-[#FDF0D5] rounded-full bg-[#d1d3aa] p-3 text-[#FDF0D5] stylish md:font-bold sm:font-semibold drop-shadow-xl">
               <Link to="/signup">ORDER!</Link>
             </button>
