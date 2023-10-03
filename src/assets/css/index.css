@@ -42,4 +42,8 @@ button:hover {
   /* justify-content: center; */
 }
 
+.insta{
+    height: 5vmin;
+    pointer-events: none;
+}
 
