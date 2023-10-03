@@ -1,4 +1,6 @@
 import React from "react";
+import logo from "../logo.svg";
+
 // import { useQuery } from "@apollo/client";
 
 // import { QUERY_COURSES } from "../utils/queries";
@@ -12,7 +14,14 @@ const Home = () => {
   return (
     <main>
       <div className="flex flex-col justify-center mb-4"></div>
-   
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+            a photo of a cake or something
+          </a>
+        </header>
+      </div>
     </main>
   );
 };

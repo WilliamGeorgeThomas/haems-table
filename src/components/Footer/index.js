@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="text-center mb-5">
         {location.pathname !== "/" && (
           <button className="stylish md:font-bold sm:font-semibold" onClick={() => navigate(-1)}>
-            &larr; Go Back
+            &larr; Back
           </button>
         )}
         <h4 className="stylish md:font-bold sm:font-semibold">email@email.com</h4>
