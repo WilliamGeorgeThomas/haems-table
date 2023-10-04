@@ -24,3 +24,11 @@ function App() {
 }
 
 export default App;
+
+//sections
+
+//home
+//about
+//faq
+//contact
+//newsletter

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../logo.svg";
+import About from "../components/About";
 
 // import { useQuery } from "@apollo/client";
 
@@ -26,6 +27,7 @@ const Home = () => {
           </header>
         </div>
       </div>
+      <About />
     </main>
   );
 };
