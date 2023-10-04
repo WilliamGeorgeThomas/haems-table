@@ -19,9 +19,9 @@ const About = () => {
             <img src="../images/nixconserv.jpg" alt="xxxxxxx"></img>
           </div>
         </div>
-        <div className="text-center stylish mt-24 text-xl w-1/2 md:font-semibold">big cakes, big taste, big booty</div>
+        <div className="text-[#FDF0D5] text-center stylish mt-24 text-xl w-1/2 md:font-semibold">big cakes, big taste, big booty</div>
         {/* <h2 className="stylish text-3xl md:font-bold sm:font-semibold text-[#669BBC] drop-shadow-xl">How it works</h2> */}
-        <div className="stylish text-xl mt-12 text-center md:font-semibold">
+        <div className="text-[#FDF0D5] stylish text-xl mt-12 text-center md:font-semibold">
           here is my life story blah blah blah<br></br>could be column idk<br></br>maybe just one block...depends
         </div>
       </div>
