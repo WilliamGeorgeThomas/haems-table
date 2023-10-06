@@ -15,7 +15,7 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-    background-color: #282c34;
+    background-color: #f3d8ac;
 }
 
 
@@ -50,4 +50,36 @@ html {
     height: 5vmin;
     pointer-events: none;
 }
+
+.grn{
+color: #476b40;
+}
+
+.bg-grn{
+background-color: #476b40;
+}
+
+.offwhite{
+color: #fffaf9;
+}
+
+.bg-offwhite{
+background-color: #fffaf9;
+}
+
+.salmon{
+color: #fd874f;
+}
+
+.bg-salmon{
+background-color: #fd874f;
+}
+
+.sndy{
+  color: #f3d8ac;
+}
+
+.bg-sndy{
+  background-color: #f3d8ac;
+} 
 

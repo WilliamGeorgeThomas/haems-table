@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import PageNotFound from "./pages/PageNotFound";
+import FAQ from "./pages/FAQ";
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/faq" element={<FAQ />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
       <Footer />

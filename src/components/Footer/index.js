@@ -12,7 +12,9 @@ const Footer = () => {
             &larr; Back
           </button>
         )}
-        <h4 className="stylish md:font-bold sm:font-semibold mb-2">email@email.com</h4>
+        <a href="mailto:email@email.com">
+          <h4 className="stylish md:font-bold sm:font-semibold mb-2">email@email.com</h4>
+        </a>
         <a href="https://instagram.com/haemstable?igshid=NzZhOTFlYzFmZQ==" target="_blank" rel="noopener noreferrer">
           <h4 className="stylish md:font-bold sm:font-semibold mb-2">
             <img src="../images/insta.png" className="insta" alt="xxxxxx" />
