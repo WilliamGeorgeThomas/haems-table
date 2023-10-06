@@ -20,9 +20,6 @@ const About = () => {
           </div> */}
         </div>
         <div className="text-center mt-24 text-xl w-1/2 md:font-semibold">big cakes, big taste, big booty</div>
-        <div className="text-xl mt-12 text-center md:font-semibold">
-          here is my life story blah blah blah<br></br>could be column idk<br></br>maybe just one block...depends
-        </div>
       </div>
     </div>
   );
