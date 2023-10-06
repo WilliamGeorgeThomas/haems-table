@@ -6,7 +6,7 @@ const FAQ = () => {
 
 
   return (
-    <main className="stylish flex justify-center">
+    <main className="flex justify-center">
       <div className="flex flex-col m-12 items-center border-[#669BBC] border-4 p-12 bg-[#F5F5F5] rounded-lg w-3/4">
         <div className="mb-4">
           <h4 className="text-3xl md:font-semibold">

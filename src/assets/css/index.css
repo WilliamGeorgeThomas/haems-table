@@ -8,11 +8,19 @@
   src: url(../fonts/Sarina-Regular.ttf);
 }
 
+@font-face {
+  font-family: zilla;
+  src: url(../fonts/ZillaSlab-Light.ttf);
+}
+
+@font-face {
+  font-family: molle;
+  src: url(../fonts/Molle-Italic.ttf);
+}
+
 body {
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
+  font-family: zilla;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
     background-color: #f3d8ac;
@@ -32,14 +40,21 @@ html {
   font-family: sarina;
 }
 
+.zilla {
+  font-family: zilla;
+}
+
+.molle {
+  font-family: molle;
+}
+
 .coverPhoto{
   /* z-index: -1; */
-  /* background-image: url("../../../public/images/cabin.jpg"); */
-  width: 50%;
-  height: 50%;
+  width: 50vw;
+  /* height: device-height; */
   pointer-events: none;
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   /* display: flex; */
   /* flex-direction: column; */
   /* align-items: center; */

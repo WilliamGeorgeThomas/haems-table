@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <main className="flex flex-col items-center mt-12 p-8 stylish">
+    <main className="flex flex-col items-center mt-12 p-8">
       <div className="text-5xl font-bold text-[#669BBC]">Hooray! Payment successful.</div>
       <div className="my-4 text-5xl font-bold text-[#669BBC]">You are now registered for your course.</div>
       <div className="text-5xl font-bold text-[#669BBC]">Happy learning!</div>
