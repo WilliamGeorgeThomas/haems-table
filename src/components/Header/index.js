@@ -26,16 +26,14 @@ const Header = () => {
             <button className="border-4 border-[#FDF0D5] rounded-lg bg-[#C1121F] p-2 text-[#FDF0D5] stylish md:font-bold sm:font-semibold drop-shadow-xl">Sign Out</button>
           </> */}
           <div className="">
-            <button className="border-4 border-[#FDF0D5] rounded-full bg-[#d1d3aa] p-3 text-[#FDF0D5] stylish mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
-              <Link to="/about">ABOUT</Link>
+            <button className="border-4 border-[#FDF0D5] rounded-full bg-[#d1d3aa] p-3 text-[#FDF0D5] stylish mr-8 md:font-bold sm:font-semibold drop-shadow-xl" href="#about">
+              ABOUT
             </button>
             <button className="border-4 border-[#FDF0D5] rounded-full bg-[#d1d3aa] p-3 text-[#FDF0D5] stylish mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
               <Link to="/login">FAQ</Link>
             </button>
             <button className="border-4 border-[#FDF0D5] rounded-full bg-[#d1d3aa] p-3 text-[#FDF0D5] stylish mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
-              <Link to="/login">
-                CONTACT <img src="../images/insta.png" className="insta" alt="xxxxxx"/>
-              </Link>
+              <Link to="/login">CONTACT</Link>
             </button>
             <button className="border-4 border-[#FDF0D5] rounded-full bg-[#d1d3aa] p-3 text-[#FDF0D5] stylish mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
               <Link to="/login">NEWSLETTER</Link>

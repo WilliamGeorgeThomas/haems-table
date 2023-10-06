@@ -24,6 +24,10 @@ button:hover {
   transition: all ease 500ms;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .sarina {
   font-family: sarina;
 }
