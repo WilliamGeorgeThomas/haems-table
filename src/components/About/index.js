@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center" id="about">
       <h1 className="text-4xl md:font-bold sm:font-semibold text-[#669BBC] drop-shadow-xl my-8">What is Haem's Table?</h1>
       <div className="flex flex-row">
         <div className="flex flex-col">
