@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/" element={<About />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>

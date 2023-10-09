@@ -26,9 +26,15 @@ const Header = () => {
             <button className="border-4 border-[#FDF0D5] rounded-lg bg-[#C1121F] p-2 text-[#FDF0D5] stylish md:font-bold sm:font-semibold drop-shadow-xl">Sign Out</button>
           </> */}
           <div className="">
-            <button className="border-4 border-[#fd874f] rounded-full bg-offwhite p-3 salmon mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
-              <a href="#about">ABOUT</a>
-            </button>
+            <>
+              <button className="border-4 border-[#fd874f] rounded-full bg-offwhite p-3 salmon mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
+                <a href="#about">ABOUT</a>
+              </button>
+            </>
+            {/* <> */}
+              {/* if not on home use Link back to home and then scroll to About section */}
+              {/* <Link to="/">ABOUT</Link> */}
+            {/* </> */}
             <button className="border-4 border-[#fd874f] rounded-full bg-offwhite p-3 salmon mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
               <Link to="/faq">FAQ</Link>
             </button>

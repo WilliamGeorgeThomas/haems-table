@@ -4,7 +4,6 @@ import { useParams, useNavigate } from "react-router-dom";
 const FAQ = () => {
   const navigate = useNavigate();
 
-
   let coll = document.getElementsByClassName("collapsible");
   let i;
 
@@ -21,16 +20,29 @@ const FAQ = () => {
   }
 
   return (
-    <main className="">
-
-      <button type="button" class="collapsible">
-        Open Collapsible
-      </button>
-      <div class="content">
-        <p>Lorem ipsum...</p>
+    <main className="flex flex-col items-center justify-center m-6">
+      <div className="w-1/2">
+        <button type="button" class="collapsible">
+          Open Section 1
+        </button>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <button type="button" class="collapsible">
+          Open Section 2
+        </button>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <button type="button" class="collapsible">
+          Open Section 3
+        </button>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
       </div>
 
-      <div className="flex flex-col m-12 items-center border-[#669BBC] border-4 p-12 bg-[#F5F5F5] rounded-lg w-3/4">
+      {/* <div className="flex flex-col m-12 items-center border-[#669BBC] border-4 p-12 bg-[#F5F5F5] rounded-lg w-3/4">
         <div className="mb-4">
           <h4 className="text-3xl md:font-semibold"></h4>
         </div>
@@ -57,7 +69,7 @@ const FAQ = () => {
           </div>
         </div>
         <div className="mx-12">Enroll!</div>
-      </div>
+      </div> */}
     </main>
   );
 };
