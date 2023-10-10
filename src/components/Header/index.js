@@ -39,10 +39,10 @@ const Header = () => {
               <Link to="/faq">FAQ</Link>
             </button>
             <button className="border-4 border-[#fd874f] rounded-full bg-offwhite p-3 salmon mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
-              <Link to="/login">CONTACT</Link>
+              <Link to="/contact">CONTACT</Link>
             </button>
             <button className="border-4 border-[#fd874f] rounded-full bg-offwhite p-3 salmon mr-8 md:font-bold sm:font-semibold drop-shadow-xl">
-              <Link to="/login">NEWSLETTER</Link>
+              <Link to="/newsletter">NEWSLETTER</Link>
             </button>
 
             <button className="border-4 border-[#fd874f] rounded-full bg-offwhite p-3 salmon md:font-bold sm:font-semibold drop-shadow-xl">
