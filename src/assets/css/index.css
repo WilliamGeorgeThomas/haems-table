@@ -106,17 +106,20 @@ background-color: #fd874f;
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border: none;
+  border: #fd874f solid 3px;
   text-align: left;
   outline: none;
   font-size: 15px;
+  border-radius: 0.5rem;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .collapsible:hover {
-  /* background-color: #bdbdbd; */
-  border: #fd874f solid 3px;
+  background-color: #ebebeb;
+  /* border: #fd874f solid 3px; */
+  border: none;
+  
 }
 
 /* Style the collapsible content. Note: hidden by default */

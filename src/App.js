@@ -8,6 +8,7 @@ import About from "./components/About";
 import PageNotFound from "./pages/PageNotFound";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
+import Newsletter from "./pages/Newsletter"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/newsletter" element={<Newsletter />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
       <Footer />
