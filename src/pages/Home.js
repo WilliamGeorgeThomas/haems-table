@@ -14,14 +14,16 @@ const Home = () => {
 
   return (
     <main>
-      <div className="flex flex-col justify-center m-4">
-        <div className="flex flex-row items-center">
+      <div className="flex flex-col justify-center m-6">
+        <div className="flex flex-row items-center justify-around">
           <div class="coverPhoto">
-            <img src="../images/cabin.jpg" alt="xxxxxxx"></img>
+            <img src="../images/buns.jpg" alt="xxxxxxx"></img>
           </div>
-              <button className="salmon text-xl mr-4 md:font-bold sm:font-semibold drop-shadow-xl">
-              <a href="#about">Learn More</a>
-              </button>
+          <div className="flex flex-col items-center">
+            <button className="grn text-2xl md:font-bold sm:font-semibold drop-shadow-xl">
+              <a href="#about">Bespoke Kitchen ⤵️</a>
+            </button>
+          </div>
         </div>
       </div>
       <About />
