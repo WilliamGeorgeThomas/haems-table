@@ -15,10 +15,13 @@ const Home = () => {
   return (
     <main>
       <div className="flex flex-col justify-center m-4">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-row items-center">
           <div class="coverPhoto">
             <img src="../images/cabin.jpg" alt="xxxxxxx"></img>
           </div>
+              <button className="salmon text-xl mr-4 md:font-bold sm:font-semibold drop-shadow-xl">
+              <a href="#about">Learn More</a>
+              </button>
         </div>
       </div>
       <About />

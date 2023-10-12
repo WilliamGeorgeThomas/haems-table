@@ -8,24 +8,20 @@ const Footer = () => {
     <footer className="w-100 mt-auto p-2 bg-grn">
       <div className="text-center flex flex-col items-center">
         {/* {location.pathname !== "/" && (
-          <button className="stylish md:font-bold sm:font-semibold mb-2" onClick={() => navigate(-1)}>
+          <button className="md:font-bold sm:font-semibold mb-2" onClick={() => navigate(-1)}>
             &larr; Back
           </button>
         )} */}
         <a href="mailto:email@email.com">
-          <h4 className="stylish md:font-bold sm:font-semibold mb-2">email@email.com</h4>
+          <h4 className="offwhite mb-2">email@email.com</h4>
         </a>
-        <div className="flex flex-row justify-evenly">
-          <div>
-            <a href="https://instagram.com/haemstable?igshid=NzZhOTFlYzFmZQ==" target="_blank" rel="noopener noreferrer">
-              <h4 className="stylish md:font-bold sm:font-semibold mb-2">
-                <img src="../images/insta.png" className="insta" alt="xxxxxx" />
-                @haemstable
-              </h4>
-            </a>
+        <a href="https://instagram.com/haemstable?igshid=NzZhOTFlYzFmZQ==" target="_blank" rel="noopener noreferrer">
+          <div className="flex flex-row justify-evenly">
+            <img src="../images/insta.png" className="insta" alt="xxxxxx" />
+            <div className="mb-2 offwhite">@haemstable</div>
           </div>
-        </div>
-        <h4 className="stylish md:font-bold sm:font-semibold">&copy; {new Date().getFullYear()} - Haem's Table</h4>
+        </a>
+        <h4 className="offwhite">&copy; {new Date().getFullYear()} - Haem's Table</h4>
       </div>
     </footer>
   );
