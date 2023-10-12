@@ -36,6 +36,13 @@ html {
   scroll-behavior: smooth;
 }
 
+/* footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+} */
+
 .sarina {
   font-family: sarina;
 }
@@ -135,3 +142,18 @@ background-color: #fd874f;
   overflow: hidden;
   background-color: #f1f1f1;
 }
+
+.bg-photo {
+  background-image: url(/public/images/poundcake.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
