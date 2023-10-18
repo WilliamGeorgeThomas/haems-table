@@ -21,7 +21,7 @@ const Home = () => {
           </div>
           <div className="flex flex-col items-center">
             <button className="grn text-2xl md:font-bold sm:font-semibold drop-shadow-xl">
-              <a href="#about">Bespoke Kitchen ⤵️</a>
+              <a href="#about">About my bespoke kitchen ⤵️</a>
             </button>
           </div>
         </div>
