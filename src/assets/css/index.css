@@ -36,6 +36,11 @@ html {
   scroll-behavior: smooth;
 }
 
+input {
+  outline: none;
+}
+
+
 /* footer {
   position: relative;
   left: 0;
@@ -115,14 +120,15 @@ background-color: #fd874f;
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #fffaf9;
-  color: #444;
+  color: #476b40;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: #fd874f solid 3px;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
   border-radius: 0.5rem;
 }
 
