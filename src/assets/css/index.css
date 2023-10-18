@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: zilla;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    background-color: #f3d8ac;
+}
 
 @font-face {
   font-family: sarina;
@@ -18,41 +29,7 @@
   src: url(../fonts/Molle-Italic.ttf);
 }
 
-body {
-  margin: 0;
-  font-family: zilla;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-    background-color: #f3d8ac;
-}
-
-
-button:hover {
-  transform: scale(1.1);
-  transition: all ease 500ms;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-input {
-  outline: none;
-}
-
-input::placeholder {
-  color: #476b40;
-
-  /* text-align: center; */
-}
-
-
-/* footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  right: 0;
-} */
+/* FONT CLASSES*/
 
 .sarina {
   font-family: sarina;
@@ -66,9 +43,71 @@ input::placeholder {
   font-family: molle;
 }
 
+/* CUSTOM COLOR CLASSES */
+
+.grn {
+  color: #476b40;
+}
+
+.bg-grn {
+  background-color: #476b40;
+}
+
+.offwhite {
+  color: #fffaf9;
+}
+
+.bg-offwhite {
+  background-color: #fffaf9;
+}
+
+.salmon {
+  color: #fd874f;
+}
+
+.bg-salmon {
+  background-color: #fd874f;
+}
+
+.sndy {
+  color: #f3d8ac;
+}
+
+.bg-sndy {
+  background-color: #f3d8ac;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+
+input {
+  outline: none;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #476b40;
+  text-align: center;
+}
+
+input:focus::placeholder{
+  color: transparent;
+}
+
+
+/* footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+} */
+
+
 .coverPhoto{
   /* z-index: -1; */
-  width: 75vw;
+  width: 85vw;
   max-height: 75vh;
   overflow: hidden;
   object-fit: cover;
@@ -89,38 +128,6 @@ input::placeholder {
     pointer-events: none;
     margin-right: .5rem
 }
-
-.grn{
-color: #476b40;
-}
-
-.bg-grn{
-background-color: #476b40;
-}
-
-.offwhite{
-color: #fffaf9;
-}
-
-.bg-offwhite{
-background-color: #fffaf9;
-}
-
-.salmon{
-color: #fd874f;
-}
-
-.bg-salmon{
-background-color: #fd874f;
-}
-
-.sndy{
-  color: #f3d8ac;
-}
-
-.bg-sndy{
-  background-color: #f3d8ac;
-} 
 
 
 /* Style the button that is used to open and close the collapsible content */

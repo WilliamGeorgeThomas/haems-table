@@ -14,7 +14,7 @@ const Newsletter = () => {
           <input type="submit" value="Submit!" className="border-4 border-[#fd874f] rounded-lg font-bold text-xl p-2 bg-offwhite"></input>
           {/* <Link to="/">Return Home</Link> */}
         </form>
-      <div className="text-5xl font-bold grn my-4">View archive?????</div>
+      <div className="text-5xl font-bold salmon my-4">View archive?????</div>
     </main>
   );
 };

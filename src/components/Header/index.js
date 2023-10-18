@@ -25,7 +25,7 @@ const Header = () => {
             </button>
             <button className="border-4 border-[#FDF0D5] rounded-lg bg-[#C1121F] p-2 text-[#FDF0D5] stylish md:font-bold sm:font-semibold drop-shadow-xl">Sign Out</button>
           </> */}
-          <div className="">
+          <div className="flex">
             {/* <>
               <button className="border-4 border-[#fd874f] rounded-full bg-offwhite p-3 salmon mr-4 md:font-bold sm:font-semibold drop-shadow-xl">
                 <a href="#about">ABOUT</a>
@@ -62,8 +62,16 @@ const Header = () => {
             <button className="offwhite text-xl mr-4 md:font-bold sm:font-semibold drop-shadow-xl">
               <Link to="/newsletter">NEWSLETTER</Link>
             </button>
-            <button className="offwhite text-xl md:font-bold sm:font-semibold drop-shadow-xl">
+            <button className="offwhite text-xl md:font-bold sm:font-semibold drop-shadow-xl mr-4">
               <Link to="/signup">ORDER!</Link>
+            </button>
+            <button className="">
+              <a href="https://instagram.com/haemstable?igshid=NzZhOTFlYzFmZQ==" target="_blank" rel="noopener noreferrer">
+                {/* <div className="flex flex-row justify-evenly"> */}
+                <img src="../images/insta.png" className="insta" alt="xxxxxx" />
+                {/* <div className="mb-2 offwhite">@haemstable</div> */}
+                {/* </div> */}
+              </a>
             </button>
           </div>
         </div>
