@@ -13,16 +13,18 @@ import Newsletter from "./pages/Newsletter";
 function App() {
   return (
     <Router>
+      <div className="flex flex-col min-h-screen bg-[#FDF0D5]">
         <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/" element={<About />} />
-        <Route path="/faq" element={<FAQ />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/newsletter" element={<Newsletter />} />
-        <Route path="/*" element={<PageNotFound />} />
-      </Routes>
-      <Footer />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/" element={<About />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/newsletter" element={<Newsletter />} />
+          <Route path="/*" element={<PageNotFound />} />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 }
