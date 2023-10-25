@@ -8,12 +8,12 @@ import About from "./components/About";
 import PageNotFound from "./pages/PageNotFound";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
-import Newsletter from "./pages/Newsletter"
+import Newsletter from "./pages/Newsletter";
 
 function App() {
   return (
     <Router>
-      <Header />
+        <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/" element={<About />} />

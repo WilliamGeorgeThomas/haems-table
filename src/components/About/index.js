@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="flex flex-col items-center" id="about">
       <h1 className="text-4xl md:font-bold sm:font-semibold grn drop-shadow-xl my-8">What is Haem's Table?</h1>
-      <div className="flex flex-row mx-4 items-center">
+      <div className="flex flex-col md:flex-row mx-4 items-center">
         <div class="box-border h-72 w-96 p-4 border-4 border-[#fd874f] rounded-lg">
           <img src="../images/nixconserv.jpg" alt="xxxxxxx"></img>
         </div>
