@@ -111,7 +111,7 @@ input:focus::placeholder{
   max-height: 75vh;
   overflow: hidden;
   object-fit: cover;
-  /* object-position: 5% 5%; */
+  object-position: 50% 50%;
   /* height: device-height; */
   pointer-events: none;
   background-color: #282c34;
