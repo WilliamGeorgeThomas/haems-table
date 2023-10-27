@@ -12,21 +12,6 @@ const Header = () => {
         </Link>
           <div className="flex flex-row flex-wrap gap-2">
 
-
-            {/* <>
-              <button className="border-4 border-[#fd874f] rounded-full bg-offwhite p-3 salmon mr-4 md:font-bold sm:font-semibold drop-shadow-xl">
-                <a href="#about">ABOUT</a>
-              </button>
-            </> */}
-            {/* <> */}
-            {/* if not on home use Link back to home and then scroll to About section */}
-            {/* <Link to="/">ABOUT</Link> */}
-            {/* </> */}
-    
-            <button className="offwhite text-xl mr-4 md:font-bold sm:font-semibold drop-shadow-xl">
-              <a href="#about">ABOUT</a>
-              {/* <Link to="/#about">ABOUT</Link> */}
-            </button>
             <button className="offwhite text-xl mr-4 md:font-bold sm:font-semibold drop-shadow-xl">
               <Link to="/faq">FAQ</Link>
             </button>
