@@ -26,10 +26,7 @@ const Header = () => {
             </button>
             <button className="">
               <a href="https://instagram.com/haemstable/" target="_blank" rel="noopener noreferrer">
-                {/* <div className="flex flex-row justify-evenly"> */}
                 <img src="../images/insta.png" className="insta" alt="xxxxxx" />
-                {/* <div className="mb-2 offwhite">@haemstable</div> */}
-                {/* </div> */}
               </a>
             </button>
           </div>
