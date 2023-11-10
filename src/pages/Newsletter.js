@@ -13,7 +13,6 @@ const Newsletter = () => {
         <p className="text-xl">I write a bi-weekly newsletter where I share stories, recipes, and upcoming news from Haem's Table</p>
         <p className="text-xl">Subscribe below!</p>
         <form className="flex flex-row items-center w-3/4 lg:w-1/2 my-2">
-          {/* <label className="text-3xl font-bold grn text-center">Subscribe to my bi-weekly newsletter where I share stories, recipes, and upcoming news from Haem's Table!</label> */}
           <br />
           <input type="text" placeholder="Email address" className="border-2 border-[#fd874f] rounded-lg p-1 md:font-bold sm:font-semibold bg-offwhite" />
           <br />

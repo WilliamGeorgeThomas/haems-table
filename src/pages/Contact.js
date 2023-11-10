@@ -13,7 +13,6 @@ const Contact = () => {
           <p className="text-xl">Looking for a cake? Need savory treats for an event? Just want to chit chat about your favorite foods?</p>
           <p className="text-xl">Reach out via the form below!</p>
           <form className="flex flex-col items-center p-8">
-            {/* <div className="text-5xl font-bold salmon mb-4">Contact Form</div> */}
             {/* <label className="font-bold text-xl">Email Address</label> */}
             <input type="text" className="border-2 border-[#fd874f] rounded-lg p-1 md:font-bold sm:font-semibold bg-offwhite" placeholder="Email" />
             <br />
