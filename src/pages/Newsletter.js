@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Newsletter = () => {
   return (
     <main className="flex flex-col mt-12 p-8">
-      <div className="flex flex-row justify-evenly">
+      <div className="flex flex-col md:flex-row justify-evenly">
         <div class="max-w-md">
           <img src="../images/poboxes.jpg" alt="xxxxxxx"></img>
         </div>
