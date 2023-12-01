@@ -26,7 +26,7 @@ const Header = () => {
             </button>
             <button className="">
               <a href="https://instagram.com/haemstable/" target="_blank" rel="noopener noreferrer">
-                <img src="../images/insta.png" className="insta" alt="xxxxxx" />
+                <img src="../images/insta.png" className="insta" alt="instagram logo" />
               </a>
             </button>
           </div>
